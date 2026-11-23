@@ -1,34 +1,36 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Agencia Aduanal del Norte",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0B3D91",
+    "light": "#10B981",
+    "dark": "#082C6B"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "pages": [
       {
-        "group": "Getting Started",
+        "group": "Agencia Aduanal del Norte",
         "pages": [
           "index",
-          "quickstart"
+          "cotizar",
+          "servicios",
+          "tip-perdiste-tu-pedimento-cotiza-con-nosotros-s"
         ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "WhatsApp Directo",
+          "icon": "message-circle",
+          "href": "https://wa.me/526144611382"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Enviar Correo",
+          "icon": "mail",
+          "href": "mailto:ayudasinformacion@gmail.com"
         }
       ]
     }
@@ -40,33 +42,40 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:support@mintlify.com"
+        "href": "tel:+526144611382",
+        "label": "Tel: 614 461 1382"
+      },
+      {
+        "href": "mailto:ayudasinformacion@gmail.com",
+        "label": "Correo"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Cotizar ahora",
+      "href": "https://wa.me/526144611382?text=Hola%20Agencia%20Aduanal%20del%20Norte%2C%20perd%C3%AD%20mi%20pedimento%20y%20quiero%20cotizar."
     }
   },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
+  "background": {
+    "decoration": "windows"
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+  "fonts": {
+    "heading": {
+      "family": "Open Sans"
+    },
+    "body": {
+      "family": "Open Sans"
+    }
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "styling": {
+    "codeblocks": {
+      "theme": {
+        "light": "aurora-x",
+        "dark": "catppuccin-macchiato"
+      }
     }
   }
 }
